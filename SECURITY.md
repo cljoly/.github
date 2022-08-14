@@ -1,14 +1,16 @@
 <!-- insert
 ---
-title: "Reporting a Vulnerability"
+title: "Security Policy"
 summary: "Guidelines to report a security issue"
-date: 2022-08-14T20:45:52
-weight: 2000
+date: 2022-08-14T14:00:23+02:00
+weight: 5000
 draft: false
 ---
 end_insert -->
 
+<!-- remove -->
 # Security Policy
+<!-- end_remove -->
 
 ## Supported Versions
 
