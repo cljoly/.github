@@ -21,7 +21,7 @@ As the author of a tool or library, we are blind to many of the problems that us
 
 ## Code
 
-* It is advisable to create an issue to discuss the feature you want to add, so that you can make sure it has good chances to be merged. This also avoids having multiple persons working on the same thing.
+* It is advisable, **but not mandatory**, to create an issue to discuss the feature you want to add, so that you can make sure it has good chances to be merged. This also avoids having multiple persons working on the same thing.
 * If you don’t know what to do, but still want to help, that’s great! Look for issues labeled [`good-first-issue`][gh-first] or [`help-wanted`][gh-help]. You can also [contact me](https://cj.rs/contact), and tell me about your interests and skills.
 
 ## Code of Conduct

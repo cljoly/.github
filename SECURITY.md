@@ -1,3 +1,13 @@
+<!-- insert
+---
+title: "Reporting a Vulnerability"
+summary: "Guidelines to report a security issue"
+date: 2022-08-14T20:45:52
+weight: 2000
+draft: false
+---
+end_insert -->
+
 # Security Policy
 
 ## Supported Versions
