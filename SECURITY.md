@@ -18,7 +18,7 @@ end_insert -->
 <!-- currently being supported with security updates. -->
 
 | Version                          | Supported          |
-| -------                          | ------------------ |
+| -------                          |   :---------------:  |
 | Latest tag                       | ✅                 |
 | Latest commit on `master` or `main` | ✅                 |
 | All other versions or commit     | ❌ |
