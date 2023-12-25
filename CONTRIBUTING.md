@@ -31,15 +31,24 @@ As the author of a tool or library, we are blind to many of the problems that us
 
 That’s fine, feel free to send your contributions by [email][] to the address listed in [Contact][contact].
 
-### What Can I Do?
+### I Don’t Know What to Do
 
 * If you don’t know what to do, but still want to help, that’s great! Look for issues labeled [`good-first-issue`][gh-first] or [`help-wanted`][gh-help]. You can also [contact me][contact], and tell me about your interests and skills.
 
+### Dependencies
+
+As much as possible, I limit the number of dependencies used in my projects. Please avoid introducing new dependencies in your PRs if possible. The fewer dependencies, the better. The dependencies actually included should be relatively popular and from trusted authors, as I can’t audit any of them.
+
 ## Code of Conduct
 
-To foster a welcoming environment, we also follow [a code of conduct](https://cj.rs/docs/code-of-conduct/).
+To foster a welcoming environment, we also follow and enforce [a code of conduct](https://cj.rs/docs/code-of-conduct/).
+
+## See Also
+
+The other [open-source documents][docs].
 
 [contact]: https://cj.rs/contact
+[docs]: https://cj.rs/docs/
 [draft]: https://github.blog/2019-02-14-introducing-draft-pull-requests/
 [email]: https://git-send-email.io/
 [gh-first]: https://github.com/search?q=user%3Acljoly+label%3A%22good+first+issue%22+state%3Aopen&type=Issues

@@ -36,14 +36,15 @@ Please describe the issue as precisely as possible and don’t hesitate to propo
 <!-- reported vulnerability, what to expect if the vulnerability is accepted or -->
 <!-- declined, etc. -->
 
-## Dependencies
-
-As much as possible, I limit the number of dependencies used in my projects. Please avoid introducing new dependencies in your PRs if possible. The fewer dependencies, the better. The dependencies actually included should be relatively popular and from trusted authors, as I can’t audit any of them.
-
 ## Disclaimer
 
 This policy is not a guarantee that my software will have the desired behavior or won’t cause harm. Please refer to the License of each software for the full disclaimer.
 
+## See Also
+
+The other [open-source documents][docs].
+
 [contact]: https://cj.rs/contact/
+[docs]: https://cj.rs/docs/
 [keys]: https://cj.rs/contact/#keys
 [sendmail]: https://git-send-email.io/
