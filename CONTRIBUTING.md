@@ -33,7 +33,7 @@ That’s fine, feel free to send your contributions by [email][] to the address 
 
 ### I Don’t Know What to Do
 
-* If you don’t know what to do, but still want to help, that’s great! Look for issues labeled [`good-first-issue`][gh-first] or [`help-wanted`][gh-help]. You can also [contact me][contact], and tell me about your interests and skills.
+If you don’t know what to do, but still want to help, that’s great! Look for issues labeled [`good-first-issue`][gh-first] or [`help-wanted`][gh-help]. You can also [contact me][contact], and tell me about your interests and skills.
 
 ### Dependencies
 
