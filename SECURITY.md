@@ -36,6 +36,10 @@ Please describe the issue as precisely as possible and don’t hesitate to propo
 <!-- reported vulnerability, what to expect if the vulnerability is accepted or -->
 <!-- declined, etc. -->
 
+## Commit and tag signature
+
+Commits and tags created after 2024-01-01 are signed with a key listed listed in [this file][allowed_signers].
+
 ## Disclaimer
 
 This policy is not a guarantee that my software will have the desired behavior or won’t cause harm. Please refer to the License of each software for the full disclaimer.
@@ -44,6 +48,7 @@ This policy is not a guarantee that my software will have the desired behavior o
 
 The other [open-source documents][docs].
 
+[allowed_signers]: https://cj.rs/.ssh/allowed_signers
 [contact]: https://cj.rs/contact/
 [docs]: https://cj.rs/docs/
 [keys]: https://cj.rs/contact/#keys
