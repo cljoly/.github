@@ -36,9 +36,9 @@ Please describe the issue as precisely as possible and don’t hesitate to propo
 <!-- reported vulnerability, what to expect if the vulnerability is accepted or -->
 <!-- declined, etc. -->
 
-## Commit and tag signature
+## Signature
 
-Commits and tags created after 2024-01-01 are signed with a key listed listed in [this file][allowed_signers].
+Commits and tags created after 2024-01-01 are signed with a key listed in [this file][allowed_signers].
 
 ## Disclaimer
 
