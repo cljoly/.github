@@ -40,6 +40,8 @@ Please describe the issue as precisely as possible and don’t hesitate to propo
 
 Commits and tags created after 2024-01-01 are signed with a key listed in [this file][allowed_signers].
 
+The [blog post][post] gives more context and example of verification.
+
 ## Disclaimer
 
 This policy is not a guarantee that my software will have the desired behavior or won’t cause harm. Please refer to the License of each software for the full disclaimer.
@@ -52,4 +54,5 @@ The other [open-source documents][docs].
 [contact]: https://cj.rs/contact/
 [docs]: https://cj.rs/docs/
 [keys]: https://cj.rs/contact/#keys
+[post]: https://cj.rs/blog/my-commits-and-tags-are-now-signed/
 [sendmail]: https://git-send-email.io/
