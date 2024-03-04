@@ -5,6 +5,8 @@ summary: "Guidelines to report a security issue"
 date: 2022-08-14T14:00:23+02:00
 weight: 5000
 draft: false
+aliases:
+  - "/docs/security"
 ---
 end_insert -->
 

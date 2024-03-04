@@ -4,6 +4,8 @@ title: "Contribution Guidelines"
 date: 2021-10-02T21:00:23+02:00
 weight: 2000
 draft: false
+aliases:
+  - "/docs/contribute"
 ---
 end_insert -->
 

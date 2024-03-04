@@ -4,6 +4,8 @@ title: "Contributor Covenant Code of Conduct"
 date: 2021-09-09T21:00:23+02:00
 weight: 3000
 draft: false
+aliases:
+  - "/docs/code-of-conduct"
 ---
 end_insert -->
 
