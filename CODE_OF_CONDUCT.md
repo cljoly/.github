@@ -7,8 +7,19 @@ draft: false
 aliases:
   - "/docs/code-of-conduct"
 ---
+
+{{< rawhtml >}}
+<div class="badges">
+{{< /rawhtml >}}
 end_insert -->
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge)](https://www.contributor-covenant.org/) 
+
+<!-- insert
+{{< rawhtml >}}
+</div>
+{{< /rawhtml >}}
+end_insert -->
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
