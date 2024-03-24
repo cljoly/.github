@@ -7,11 +7,25 @@ draft: false
 aliases:
   - "/docs/contribute"
 ---
+
+{{< rawhtml >}}
+<div class="badges">
+{{< /rawhtml >}}
+end_insert -->
+
+[![Static Badge](https://img.shields.io/badge/git-email-f34c27?style=for-the-badge&logo=git&logoColor=f34c27)](#i-dont-want-to-use-github)
+![Static Badge](https://img.shields.io/badge/Contributions-welcome!-3DA639?style=for-the-badge&logo=open-source-initiative&logoColor=3DA639)
+[![Contributor Covenant](https://img.shields.io/badge/Code-of%20conduct-4baaaa.svg?style=for-the-badge)][coc] 
+
+<!-- insert
+{{< rawhtml >}}
+</div>
+{{< /rawhtml >}}
 end_insert -->
 
 Thanks for considering contributing!
 
-To keep things simple, [my projects](https://cj.rs/open-source) all follow these common guidelines.
+To keep things simple, [my projects][oss] all follow these common guidelines.
 
 ## TL;DR
 
@@ -43,16 +57,18 @@ As much as possible, I limit the number of dependencies used in my projects. Ple
 
 ## Code of Conduct
 
-To foster a welcoming environment, we also follow and enforce [a code of conduct](https://cj.rs/docs/code-of-conduct/).
+To foster a welcoming environment, we also follow and enforce [a code of conduct][coc].
 
 ## See Also
 
 The other [open-source documents][docs].
 
+[coc]: https://cj.rs/docs/code-of-conduct/
 [contact]: https://cj.rs/contact
-[docs]: https://cj.rs/docs/
+[docs]: https://cj.rs/open-source/docs/
 [draft]: https://github.blog/2019-02-14-introducing-draft-pull-requests/
 [email]: https://git-send-email.io/
 [gh-first]: https://github.com/search?q=user%3Acljoly+label%3A%22good+first+issue%22+state%3Aopen&type=Issues
 [gh-help]: https://github.com/search?q=user%3Acljoly+label%3A%22help+wanted%22+state%3Aopen&type=Issues
+[oss]: https://cj.rs/open-source
 [stage]: https://github.blog/2022-06-30-write-better-commits-build-better-projects/#structure-the-narrative
