@@ -54,7 +54,7 @@ The other [open-source documents][docs].
 
 [allowed_signers]: https://cj.rs/.ssh/allowed_signers
 [contact]: https://cj.rs/contact/
-[docs]: https://cj.rs/docs/
+[docs]: https://cj.rs/open-source/docs/
 [keys]: https://cj.rs/contact/#keys
 [post]: https://cj.rs/blog/my-commits-and-tags-are-now-signed/
 [sendmail]: https://git-send-email.io/
