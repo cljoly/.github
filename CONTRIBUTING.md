@@ -13,9 +13,11 @@ aliases:
 {{< /rawhtml >}}
 end_insert -->
 
-[![Static Badge](https://img.shields.io/badge/git-email-f34c27?style=for-the-badge&logo=git&logoColor=f34c27)](#i-dont-want-to-use-github)
-![Static Badge](https://img.shields.io/badge/Contributions-welcome!-3DA639?style=for-the-badge&logo=open-source-initiative&logoColor=3DA639)
-[![Contributor Covenant](https://img.shields.io/badge/Code-of%20conduct-4baaaa.svg?style=for-the-badge)][coc] 
+[![Git Email](https://img.shields.io/badge/Git_email-supported-success?style=flat)](#i-dont-want-to-use-github)
+[![Contributions welcome!](https://img.shields.io/badge/Contributions_welcome!-3DA639?style=flat)](#tldr)
+[![Contributor Covenant](https://img.shields.io/badge/Code_of_conduct-4baaaa.svg?style=flat)][coc]
+[![Security Policy](https://img.shields.io/badge/Security_policy-purple.svg?style=flat)][sp]
+[![Buy me a tea](https://img.shields.io/badge/Buy_me_a_tea-F96854?style=flat)][tea]
 
 <!-- insert
 {{< rawhtml >}}
@@ -23,9 +25,7 @@ end_insert -->
 {{< /rawhtml >}}
 end_insert -->
 
-Thanks for considering contributing!
-
-To keep things simple, [my projects][oss] all follow these common guidelines.
+Thanks for considering contributing! [My projects][oss] all follow the guidelines outlined in this document.
 
 ## TL;DR
 
@@ -64,6 +64,8 @@ To foster a welcoming environment, we also follow and enforce [a code of conduct
 The other [open-source documents][docs].
 
 [coc]: https://cj.rs/docs/code-of-conduct/
+[sp]: https://cj.rs/docs/security/
+[tea]: https://cj.rs/donate
 [contact]: https://cj.rs/contact
 [docs]: https://cj.rs/open-source/docs/
 [draft]: https://github.blog/2019-02-14-introducing-draft-pull-requests/

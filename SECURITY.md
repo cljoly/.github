@@ -14,6 +14,20 @@ end_insert -->
 # Security Policy
 <!-- end_remove -->
 
+<!-- insert
+{{< rawhtml >}}
+<div class="badges">
+{{< /rawhtml >}}
+end_insert -->
+
+[![Contributions welcome!](https://img.shields.io/badge/Contributions_welcome!-3DA639?style=flat)][contrib]
+
+<!-- insert
+{{< rawhtml >}}
+</div>
+{{< /rawhtml >}}
+end_insert -->
+
 ## Supported Versions
 
 <!-- Use this section to tell people about which versions of your project are -->
@@ -54,6 +68,7 @@ The other [open-source documents][docs].
 
 [allowed_signers]: https://cj.rs/.ssh/allowed_signers
 [contact]: https://cj.rs/contact/
+[contrib]: https://cj.rs/open-source/docs/contribute/
 [docs]: https://cj.rs/open-source/docs/
 [keys]: https://cj.rs/contact/#keys
 [post]: https://cj.rs/blog/my-commits-and-tags-are-now-signed/
