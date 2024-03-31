@@ -61,7 +61,7 @@ To foster a welcoming environment, we also follow and enforce [a code of conduct
 
 ## See Also
 
-The other [open-source documents][docs].
+The other [Open-Source documents][docs].
 
 [coc]: https://cj.rs/docs/code-of-conduct/
 [sp]: https://cj.rs/docs/security/

@@ -64,7 +64,7 @@ This policy is not a guarantee that my software will have the desired behavior o
 
 ## See Also
 
-The other [open-source documents][docs].
+The other [Open-Source documents][docs].
 
 [allowed_signers]: https://cj.rs/.ssh/allowed_signers
 [contact]: https://cj.rs/contact/
