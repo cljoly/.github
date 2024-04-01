@@ -55,6 +55,40 @@ If you don’t know what to do, but still want to help, that’s great! Look for
 
 As much as possible, I limit the number of dependencies used in my projects. Please avoid introducing new dependencies in your PRs if possible. The fewer dependencies, the better. The dependencies actually included should be relatively popular and from trusted authors, as I can’t audit any of them.
 
+## Delegating Trust
+
+In light of the [XZ-backdoor][xz-backdoor] and many other [supply-chain attacks][supply-chain], I can’t give commit permissions lightly.
+
+As a result I don’t delegate commit rights unless:
+1. I’ve known someone in person for years, **and**
+2. they have established a track-record of contributions.
+
+It may mean that a project goes abandoned or doesn’t improve as quickly.
+Or that it is overtaken by a fork that gets more attention.
+That’s fine.
+It’s the tradeoff I make.
+I would rather a fork succeed than letting [a nefarious actor inherit the trust I’ve built][oss-interactions].
+
+## Hobby Project: Take It Slow
+
+My projects are hobby projects.
+They are done during my, and contributor’s, free time.
+It may mean that your comments or PR may go unanswered for days or weeks.
+I value comments, PRs and otherwise constructive interactions.
+It’s part of the joy of working on Open-Source software for me.
+But I may not have bandwidth to review some changes in a timely manner.
+I’m not a full-time Open-Source maintainer.
+Yet at least.
+That’s life.
+
+Equally, as a contributor, please feel free to say that you don’t have time or energy anymore.
+You can do that even in the middle of a PR.
+Someone else can always pick it up.
+
+We are here to have fun developing software.
+We don’t owe anything[^try] to consumer of our software.
+After all, our Open-Source licenses disclaim as much.
+
 ## Code of Conduct
 
 To foster a welcoming environment, we also follow and enforce [a code of conduct][coc].
@@ -62,6 +96,8 @@ To foster a welcoming environment, we also follow and enforce [a code of conduct
 ## See Also
 
 The other [Open-Source documents][docs].
+
+[^try]: I do try to produce high-quality, secure software. I take pride in my work. But there is no guarantee. That’s the bargain in volunteer-maintained Open-Source software.
 
 [coc]: https://cj.rs/docs/code-of-conduct/
 [sp]: https://cj.rs/docs/security/
@@ -74,3 +110,6 @@ The other [Open-Source documents][docs].
 [gh-help]: https://github.com/search?q=user%3Acljoly+label%3A%22help+wanted%22+state%3Aopen&type=Issues
 [oss]: https://cj.rs/open-source
 [stage]: https://github.blog/2022-06-30-write-better-commits-build-better-projects/#structure-the-narrative
+[supply-chain]: https://en.wikipedia.org/wiki/Supply_chain_attack
+[xz-backdoor]: https://security.archlinux.org/CVE-2024-3094
+[oss-interactions]: https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
