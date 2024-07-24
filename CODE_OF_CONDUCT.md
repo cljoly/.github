@@ -13,7 +13,7 @@ aliases:
 {{< /rawhtml >}}
 end_insert -->
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=flat)](https://www.contributor-covenant.org/)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=flat)](https://www.contributor-covenant.org/) [![Contributions welcome!](https://img.shields.io/badge/Contributions_welcome!-3DA639?style=flat)][contrib]
 
 <!-- insert
 {{< rawhtml >}}
