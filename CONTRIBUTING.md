@@ -45,7 +45,7 @@ As the author of a tool or library, we are blind to many of the problems that us
 
 ### I Don’t Want to Use GitHub
 
-That’s fine, feel free to send your contributions by [email][] to the address listed in [Contact][contact].
+That’s fine, feel free to send your contributions [by email][email][^am] to the address listed [on the Contact page][contact].
 
 ### I Don’t Know What to Do
 
@@ -98,6 +98,7 @@ To foster a welcoming environment, we also follow and enforce [a code of conduct
 The other [Open-Source documents][docs].
 
 [^try]: I do try to produce high-quality, secure software. I take pride in my work. But there is no guarantee. That’s the bargain in volunteer-maintained Open-Source software.
+[^am]: If you want to accept patches by email too, [git-am.io][git-am] is a good starting point.
 
 [coc]: https://cj.rs/docs/code-of-conduct/
 [sp]: https://cj.rs/docs/security/
@@ -113,3 +114,4 @@ The other [Open-Source documents][docs].
 [supply-chain]: https://en.wikipedia.org/wiki/Supply_chain_attack
 [xz-backdoor]: https://security.archlinux.org/CVE-2024-3094
 [oss-interactions]: https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
+[git-am]: https://git-am.io/
