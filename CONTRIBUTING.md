@@ -93,6 +93,43 @@ After all, our Open-Source licenses disclaim as much.
 
 To foster a welcoming environment, we also follow and enforce [a code of conduct][coc].
 
+## Meaning of “Signed-off-by” Lines in Commit Messages
+
+When signoffs are used, it means that the committer agrees to the representations from [the Developer Certificate of Origin (DCO)][DCO], reproduced below:
+
+```
+Developer's Certificate of Origin 1.1
+
+By making a contribution to this project, I certify that:
+
+(a) The contribution was created in whole or in part by me and I
+    have the right to submit it under the open source license
+    indicated in the file; or
+
+(b) The contribution is based upon previous work that, to the best
+    of my knowledge, is covered under an appropriate open source
+    license and I have the right under that license to submit that
+    work with modifications, whether created in whole or in part
+    by me, under the same open source license (unless I am
+    permitted to submit under a different license), as indicated
+    in the file; or
+
+(c) The contribution was provided directly to me by some other
+    person who certified (a), (b) or (c) and I have not modified
+    it.
+
+(d) I understand and agree that this project and the contribution
+    are public and that a record of the contribution (including all
+    personal information I submit with it, including my sign-off) is
+    maintained indefinitely and may be redistributed consistent with
+    this project or the open source license(s) involved.
+```
+
+This is the DCO used by the Linux kernel and Git projects.
+
+When a Signed-off-by line is *not* present, we are relying on any provisions of the project’s license.
+In addition, if the contribution was submitted through GitHub, the GitHub Terms of Service apply, in particular [Section D.6][gh-terms-d6] ([archived version][gh-terms-d6-archive]).
+
 ## See Also
 
 The other [Open-Source documents][docs].
@@ -100,18 +137,21 @@ The other [Open-Source documents][docs].
 [^try]: I do try to produce high-quality, secure software. I take pride in my work. But there is no guarantee. That’s the bargain in volunteer-maintained Open-Source software.
 [^am]: If you want to accept patches by email too, [git-am.io][git-am] is a good starting point.
 
+[DCO]: https://developercertificate.org
 [coc]: https://cj.rs/docs/code-of-conduct/
-[sp]: https://cj.rs/docs/security/
-[tea]: https://cj.rs/donate
 [contact]: https://cj.rs/contact
 [docs]: https://cj.rs/open-source/docs/
 [draft]: https://github.blog/2019-02-14-introducing-draft-pull-requests/
 [email]: https://git-send-email.io/
 [gh-first]: https://github.com/search?q=user%3Acljoly+label%3A%22good+first+issue%22+state%3Aopen&type=Issues
 [gh-help]: https://github.com/search?q=user%3Acljoly+label%3A%22help+wanted%22+state%3Aopen&type=Issues
+[gh-terms-d6-archive]: https://web.archive.org/web/20240817042952/https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#6-contributions-under-repository-license
+[gh-terms-d6]: https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#6-contributions-under-repository-license
+[git-am]: https://git-am.io/
+[oss-interactions]: https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
 [oss]: https://cj.rs/open-source
+[sp]: https://cj.rs/docs/security/
 [stage]: https://github.blog/2022-06-30-write-better-commits-build-better-projects/#structure-the-narrative
 [supply-chain]: https://en.wikipedia.org/wiki/Supply_chain_attack
+[tea]: https://cj.rs/donate
 [xz-backdoor]: https://security.archlinux.org/CVE-2024-3094
-[oss-interactions]: https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
-[git-am]: https://git-am.io/
