@@ -42,6 +42,7 @@ As the author of a tool or library, we are blind to many of the problems that us
 * It is advisable, **but not mandatory**, to create an issue to discuss the feature you want to add, so that you can make sure it has good chances to be merged. This also avoids having multiple persons working on the same thing.
   * Similarly, feel free to create a [draft PR][draft] with your changes before they are completed. This is useful to point to a particular part of the code during discussions.
 * Try to create one pull request per high level feature or bug fix. Then if necessary [try to stage your changes][stage] by crafting multiple commits: if your commits follow a progression on your changes, it’ll be easier to review.
+* New features need to be covered by adding new unit tests, where applicable. Similarly, bug fixes need to be accompanied by a regression test where applicable, to ensure that the bug does not come back. Reviewers and maintainers are in charge of enforcing this.
 
 ### I Don’t Want to Use GitHub
 
