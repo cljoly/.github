@@ -48,6 +48,13 @@ As the author of a tool or library, we are blind to many of the problems that us
 
 That’s fine, feel free to send your contributions [by email][email][^am] to the address listed [on the Contact page][contact].
 
+If you are contributing this way, please use the `-s` or `--signoff` with each commit, so that a `Signed-off-by` trailer is added to each of your commits.
+Or manually add a `Signed-off-by` trailer at the end of your commits, like this:
+```
+Signed-off-by: Put Your Name Here <TheEmailYou@UseWith.Git>
+```
+This signifies your agreement with the [DCO below][dco-section].
+
 ### I Don’t Know What to Do
 
 If you don’t know what to do, but still want to help, that’s great! Look for issues labeled [`good-first-issue`][gh-first] or [`help-wanted`][gh-help]. You can also [contact me][contact], and tell me about your interests and skills.
@@ -96,7 +103,7 @@ To foster a welcoming environment, we also follow and enforce [a code of conduct
 
 ## Meaning of “Signed-off-by” Lines in Commit Messages
 
-When signoffs are used, it means that the committer agrees to the representations from [the Developer Certificate of Origin (DCO)][DCO], reproduced below:
+When `Signed-off-by` trailers are used, it means that the committer agrees to the representations from [the Developer Certificate of Origin (DCO)][DCO], reproduced below:
 
 ```
 Developer's Certificate of Origin 1.1
@@ -128,7 +135,7 @@ By making a contribution to this project, I certify that:
 
 This is the DCO used by the Linux kernel and Git projects.
 
-When a Signed-off-by line is *not* present, we are relying on any provisions of the project’s license.
+When a `Signed-off-by` trailer is *not* present, we are relying on any provisions of the project’s license.
 In addition, if the contribution was submitted through GitHub, the GitHub Terms of Service apply, in particular [Section D.6][gh-terms-d6] ([archived version][gh-terms-d6-archive]).
 
 
@@ -146,6 +153,7 @@ The other [Open-Source documents][docs].
 [^am]: If you want to accept patches by email too, [git-am.io][git-am] is a good starting point.
 
 [DCO]: https://developercertificate.org
+[dco-section]: #meaning-of-signed-off-by-lines-in-commit-messages
 [coc]: https://cj.rs/docs/code-of-conduct/
 [contact]: https://cj.rs/contact
 [docs]: https://cj.rs/open-source/docs/
