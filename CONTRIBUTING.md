@@ -131,6 +131,13 @@ This is the DCO used by the Linux kernel and Git projects.
 When a Signed-off-by line is *not* present, we are relying on any provisions of the project’s license.
 In addition, if the contribution was submitted through GitHub, the GitHub Terms of Service apply, in particular [Section D.6][gh-terms-d6] ([archived version][gh-terms-d6-archive]).
 
+
+> 6. Contributions Under Repository License
+>
+> Whenever you add Content to a repository containing notice of a license, you license that Content under the same terms, and you agree that you have the right to license that Content under those terms. If you have a separate agreement to license that Content under different terms, such as a contributor license agreement, that agreement will supersede.
+>
+> [...]
+
 ## See Also
 
 The other [Open-Source documents][docs].
