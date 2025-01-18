@@ -48,7 +48,7 @@ As the author of a tool or library, we are blind to many of the problems that us
 
 That’s fine, feel free to send your contributions [by email][email][^am] to the address listed [on the Contact page][contact].
 
-If you are contributing this way, please use the `-s` or `--signoff` with each commit, so that a `Signed-off-by` trailer is added to each of your commits.
+If you are contributing this way, please use the [`-s`/`--signoff`][signoff] with each commit, so that a `Signed-off-by` trailer is added to each of your commits.
 Or manually add a `Signed-off-by` trailer at the end of your commits, like this:
 ```
 Signed-off-by: Put Your Name Here <TheEmailYou@UseWith.Git>
@@ -171,3 +171,4 @@ The other [Open-Source documents][docs].
 [supply-chain]: https://en.wikipedia.org/wiki/Supply_chain_attack
 [tea]: https://cj.rs/donate
 [xz-backdoor]: https://security.archlinux.org/CVE-2024-3094
+[signoff]: https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--s
