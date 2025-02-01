@@ -61,7 +61,11 @@ If you don’t know what to do, but still want to help, that’s great! Look for
 
 ### Dependencies
 
-As much as possible, I limit the number of dependencies used in my projects. Please avoid introducing new dependencies in your PRs if possible. The fewer dependencies, the better. The dependencies actually included should be relatively popular and from trusted authors, as I can’t audit any of them.
+As much as possible, I limit the number of dependencies used in my projects. Dependencies provide a short term win, by relying on someone else’s expertise and implementation to solve a particular problem. But there are two main long-term costs:
+1. [ongoing maintenance][build_it_yourself], where one has to spend more and more time just updating an ever expanding tree of dependencies.
+1. security risks: both in terms of making sure every dependency and transitive dependency is not a malware in disguise, especially as the authors change.
+
+Please avoid introducing new dependencies in your PRs if possible. If you do, please outline why you think it’s a worthy trade off.
 
 ## Delegating Trust
 
@@ -72,9 +76,9 @@ As a result I don’t delegate commit rights unless:
 2. they have established a track-record of contributions.
 
 It may mean that a project goes abandoned or doesn’t improve as quickly.
-Or that it is overtaken by a fork that gets more attention.
+Or that it may be overtaken by a fork that gets more attention.
 That’s fine.
-It’s the tradeoff I make.
+It’s the trade off I make.
 I would rather a fork succeed than letting [a nefarious actor inherit the trust I’ve built][oss-interactions].
 
 ## Hobby Project: Take It Slow
@@ -86,7 +90,7 @@ I value comments, PRs and otherwise constructive interactions.
 It’s part of the joy of working on Open-Source software for me.
 But I may not have bandwidth to review some changes in a timely manner.
 I’m not a full-time Open-Source maintainer.
-Yet at least.
+At least, not yet.
 That’s life.
 
 Equally, as a contributor, please feel free to say that you don’t have time or energy anymore.
@@ -94,7 +98,7 @@ You can do that even in the middle of a PR.
 Someone else can always pick it up.
 
 We are here to have fun developing software.
-We don’t owe anything[^try] to consumer of our software.
+We don’t owe anything[^try] to consumers of our software.
 After all, our Open-Source licenses disclaim as much.
 
 ## Code of Conduct
@@ -171,4 +175,5 @@ The other [Open-Source documents][docs].
 [supply-chain]: https://en.wikipedia.org/wiki/Supply_chain_attack
 [tea]: https://cj.rs/donate
 [xz-backdoor]: https://security.archlinux.org/CVE-2024-3094
+[build_it_yourself]: https://lucumr.pocoo.org/2025/1/24/build-it-yourself/
 [signoff]: https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--s
