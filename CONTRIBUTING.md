@@ -62,8 +62,8 @@ If you don’t know what to do, but still want to help, that’s great! Look for
 ### Dependencies
 
 As much as possible, I limit the number of dependencies used in my projects. Dependencies provide a short term win, by relying on someone else’s expertise and implementation to solve a particular problem. But there are two main long-term costs:
-1. [ongoing maintenance][build_it_yourself], where one has to spend more and more time just updating an ever expanding tree of dependencies.
-1. security risks: both in terms of making sure every dependency and transitive dependency is not a malware in disguise, especially as the authors change.
+1. [ongoing maintenance][build_it_yourself]: spending more and more time updating an ever expanding tree of dependencies.
+1. security risks: for every dependency and transitive dependency, every new version can be a malware in disguise, especially as the authors change.
 
 Please avoid introducing new dependencies in your PRs if possible. If you do, please outline why you think it’s a worthy trade off.
 
