@@ -101,11 +101,13 @@ We are here to have fun developing software.
 We don’t owe anything[^try] to consumers of our software.
 After all, our Open-Source licenses disclaim as much.
 
-## Code of Conduct
+## Rules
 
-To foster a welcoming environment, we also follow and enforce [a code of conduct][coc].
+### Code of Conduct
 
-## Meaning of “Signed-off-by” Lines in Commit Messages
+To foster a welcoming environment, we follow and enforce [a code of conduct][coc].
+
+### Meaning of “Signed-off-by” Lines in Commit Messages
 
 When `Signed-off-by` trailers are used, it means that the committer agrees to the representations from [the Developer Certificate of Origin (DCO)][DCO], reproduced below:
 
@@ -149,6 +151,18 @@ In addition, if the contribution was submitted through GitHub, the GitHub Terms 
 >
 > [...]
 
+### Copyright Notices
+
+In general, original copyright holders retain their copyrights. We follow these [community best practices][lf_community_best_practices] ([archive][lf_community_best_practices_archive]):
+
+1. If a file contains code from a third party that wasn’t submitted by that third party, then the original copyright headers are kept.
+1. For code submitted to the project as a contribution, fine grained copyright ownership is tracked in the source control system (typically, Git). A simplified header is then used in the file, to convey that the work is copyrighted and licensed as a part of the project:
+   ```
+   Copyright Contributors to the XYZ project.
+   ```
+   where `XYZ` is obviously replaced by the project’s name.
+1. Don’t change someone else’s notices without their permission.
+
 ## See Also
 
 The other [Open-Source documents][docs].
@@ -177,3 +191,5 @@ The other [Open-Source documents][docs].
 [xz-backdoor]: https://security.archlinux.org/CVE-2024-3094
 [build_it_yourself]: https://lucumr.pocoo.org/2025/1/24/build-it-yourself/
 [signoff]: https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--s
+[lf_community_best_practices]: https://www.linuxfoundation.org/blog/blog/copyright-notices-in-open-source-software-projects
+[lf_community_best_practices_archive]: https://web.archive.org/web/20240914120829/https://www.linuxfoundation.org/blog/blog/copyright-notices-in-open-source-software-projects
