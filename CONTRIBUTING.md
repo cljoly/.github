@@ -63,7 +63,7 @@ If you don’t know what to do, but still want to help, that’s great! Look for
 
 As much as possible, I limit the number of dependencies used in my projects. Dependencies provide a short term win, by relying on someone else’s expertise and implementation to solve a particular problem. But there are two main long-term costs:
 1. [ongoing maintenance][build_it_yourself]: spending more and more time updating an ever expanding tree of dependencies.
-1. security risks: for every dependency and transitive dependency, every new version can be a malware in disguise, especially as the authors change.
+1. [security risks][swtch_deps]: for every dependency and transitive dependency, every new version can be a malware in disguise, especially as the authors change.
 
 Please avoid introducing new dependencies in your PRs if possible. If you do, please outline why you think it’s a worthy trade off.
 
@@ -193,3 +193,4 @@ The other [Open-Source documents][docs].
 [signoff]: https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--s
 [lf_community_best_practices]: https://www.linuxfoundation.org/blog/blog/copyright-notices-in-open-source-software-projects
 [lf_community_best_practices_archive]: https://web.archive.org/web/20240914120829/https://www.linuxfoundation.org/blog/blog/copyright-notices-in-open-source-software-projects
+[swtch_deps]: https://research.swtch.com/deps
