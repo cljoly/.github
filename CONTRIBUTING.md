@@ -158,10 +158,13 @@ In general, original copyright holders retain their copyrights. We follow these 
 1. If a file contains code from a third party that wasn’t submitted by that third party, then the original copyright headers are kept.
 1. For code submitted to the project as a contribution, fine grained copyright ownership is tracked in the source control system (typically, Git). A simplified header is then used in the file, to convey that the work is copyrighted and licensed as a part of the project:
    ```
-   Copyright Contributors to the XYZ project.
+   Copyright XYZ and contributors.
    ```
-   where `XYZ` is obviously replaced by the project’s name.
+   where `XYZ` is obviously replaced by the name of the person who leads the project.
 1. Don’t change someone else’s notices without their permission.
+
+> [!NOTE]
+> The copyright notices are usually right after the `SPDX-License-Identifier:` line and before the license notices.
 
 ## See Also
 
