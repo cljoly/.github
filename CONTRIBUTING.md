@@ -144,7 +144,6 @@ This is the DCO used by the Linux kernel and Git projects.
 When a `Signed-off-by` trailer is *not* present, we are relying on any provisions of the project’s license.
 In addition, if the contribution was submitted through GitHub, the GitHub Terms of Service apply, in particular [Section D.6][gh-terms-d6] ([archived version][gh-terms-d6-archive]).
 
-
 > 6. Contributions Under Repository License
 >
 > Whenever you add Content to a repository containing notice of a license, you license that Content under the same terms, and you agree that you have the right to license that Content under those terms. If you have a separate agreement to license that Content under different terms, such as a contributor license agreement, that agreement will supersede.
@@ -170,13 +169,13 @@ In general, original copyright holders retain their copyrights. We follow these 
 
 The other [Open-Source documents][docs].
 
-[^try]: I do try to produce high-quality, secure software. I take pride in my work. But there is no guarantee. That’s the bargain in volunteer-maintained Open-Source software.
-[^am]: If you want to accept patches by email too, [git-am.io][git-am] is a good starting point.
 
-[DCO]: https://developercertificate.org
-[dco-section]: #meaning-of-signed-off-by-lines-in-commit-messages
+
+[build_it_yourself]: https://lucumr.pocoo.org/2025/1/24/build-it-yourself/
 [coc]: https://cj.rs/docs/code-of-conduct/
 [contact]: https://cj.rs/contact
+[DCO]: https://developercertificate.org
+[dco-section]: #meaning-of-signed-off-by-lines-in-commit-messages
 [docs]: https://cj.rs/open-source/docs/
 [draft]: https://github.blog/2019-02-14-introducing-draft-pull-requests/
 [email]: https://git-send-email.io/
@@ -185,15 +184,18 @@ The other [Open-Source documents][docs].
 [gh-terms-d6-archive]: https://web.archive.org/web/20240817042952/https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#6-contributions-under-repository-license
 [gh-terms-d6]: https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#6-contributions-under-repository-license
 [git-am]: https://git-am.io/
-[oss-interactions]: https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
+[lf_community_best_practices_archive]: https://web.archive.org/web/20240914120829/https://www.linuxfoundation.org/blog/blog/copyright-notices-in-open-source-software-projects
+[lf_community_best_practices]: https://www.linuxfoundation.org/blog/blog/copyright-notices-in-open-source-software-projects
 [oss]: https://cj.rs/open-source
+[oss-interactions]: https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
+[signoff]: https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--s
 [sp]: https://cj.rs/docs/security/
 [stage]: https://github.blog/2022-06-30-write-better-commits-build-better-projects/#structure-the-narrative
 [supply-chain]: https://en.wikipedia.org/wiki/Supply_chain_attack
+[swtch_deps]: https://research.swtch.com/deps
 [tea]: https://cj.rs/donate
 [xz-backdoor]: https://security.archlinux.org/CVE-2024-3094
-[build_it_yourself]: https://lucumr.pocoo.org/2025/1/24/build-it-yourself/
-[signoff]: https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--s
-[lf_community_best_practices]: https://www.linuxfoundation.org/blog/blog/copyright-notices-in-open-source-software-projects
-[lf_community_best_practices_archive]: https://web.archive.org/web/20240914120829/https://www.linuxfoundation.org/blog/blog/copyright-notices-in-open-source-software-projects
-[swtch_deps]: https://research.swtch.com/deps
+
+[^am]: If you want to accept patches by email too, [git-am.io][git-am] is a good starting point.
+[^try]: I do try to produce high-quality, secure software. I take pride in my work. But there is no guarantee. That’s the bargain in volunteer-maintained Open-Source software.
+
