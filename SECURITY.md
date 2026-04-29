@@ -40,8 +40,9 @@ end_insert -->
 
 First, thanks for considering reporting!
 
-You can [contact me][contact] and encrypt your message with one of the [keys][].
-Please describe the issue as precisely as possible and don’t hesitate to propose a fix (for instance, with a [patch sent over email][sendmail]) if you have one.
+Then please [contact me][contact] and describe the issue as precisely as possible. Don’t hesitate to propose a fix (for instance, with a [patch sent over email][sendmail]) if you have one.
+
+If you wish to send encrypted material, here are the [public keys][keys].
 
 ## Signature
 
