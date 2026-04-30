@@ -44,6 +44,14 @@ As the author of a tool or library, we are blind to many of the problems that us
 * Try to create one pull request per high level feature or bug fix. Then if necessary [try to stage your changes][stage] by crafting multiple commits: if your commits follow a progression on your changes, it’ll be easier to review.
 * New features need to be covered by adding new unit tests, where applicable. Similarly, bug fixes need to be accompanied by a regression test where applicable, to ensure that the bug does not come back. Reviewers and maintainers are in charge of enforcing this.
 
+### LLM / GenAI
+
+* Do not use an LLM to submit PRs that you don’t understand. If you must use an LLM, rework the output yourself so that it is your work and you understand it. This also alleviate some of the concerns with copyright of material based on LLM output. Keep the PR small to make reviews easier.
+* Do not use an LLM to generate issues or comments.
+
+> [!WARNING]
+> Submitting generated content in violation of the above guidelines is considered spam. Repeat submission of spam will lead to bans.
+
 ### I Don’t Want to Use GitHub
 
 That’s fine, feel free to send your contributions [by email][email][^am] to the address listed [on the Contact page][contact].
