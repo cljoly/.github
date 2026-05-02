@@ -54,7 +54,7 @@ As the author of a tool or library, we are blind to many of the problems that us
 
 ### I Don’t Want to Use GitHub
 
-That’s fine, feel free to send your contributions [by email][email][^am] to the address listed [on the Contact page][contact].
+That’s fine, feel free to send your contributions [by email][email][^am] to the address listed [on the Contact page][contact]. You can also push to a publicly accessible repo and [request that I pull from it][git-request-pull].
 
 If you are contributing this way, please use the [`-s`/`--signoff`][signoff] with each commit, so that a `Signed-off-by` trailer is added to each of your commits.
 Or manually add a `Signed-off-by` trailer at the end of your commits, like this:
@@ -196,6 +196,7 @@ The other [Open-Source documents][docs].
 [lf_community_best_practices]: https://www.linuxfoundation.org/blog/blog/copyright-notices-in-open-source-software-projects
 [oss]: https://cj.rs/open-source
 [oss-interactions]: https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
+[git-request-pull]: https://git-scm.com/docs/git-request-pull
 [signoff]: https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--s
 [sp]: https://cj.rs/docs/security/
 [stage]: https://github.blog/2022-06-30-write-better-commits-build-better-projects/#structure-the-narrative
