@@ -29,7 +29,7 @@ Thanks for considering contributing! [My projects][oss] all follow the guideline
 
 ## TL;DR
 
-If you just want to fix a typo or another very small thing, just create a PR.
+If you just want to fix a typo or another very small thing, just create a pull request.
 
 ## Documentation
 
@@ -37,7 +37,7 @@ As the author of a tool or library, we are blind to many of the problems that us
 
 ## Code
 
-### Pull Request
+### Pull Request (PR)
 
 * It is advisable, **but not mandatory**, to create an issue to discuss the feature you want to add, so that you can make sure it has good chances to be merged. This also avoids having multiple persons working on the same thing.
   * Similarly, feel free to create a [draft PR][draft] with your changes before they are completed. This is useful to point to a particular part of the code during discussions.
@@ -46,8 +46,14 @@ As the author of a tool or library, we are blind to many of the problems that us
 
 ### LLM / GenAI
 
-* Do not use an LLM to submit PRs that you don’t understand. If you must use an LLM, rework the output yourself so that it is your work and you understand it. This also alleviate some of the concerns with copyright of material based on LLM output. Keep the PR small to make reviews easier.
-* Do not use an LLM to generate issues or comments.
+* Please **disclose** the use of LLMs at least in the PR description and ideally in the commit message as well.
+* Do not use an LLM to submit PRs that you don’t understand. If you must use an LLM, rework the output yourself so that it is your work and you understand it. This also alleviate some of the concerns with copyright of material based on LLM output.
+  * Please keep the PR small to make reviews easier.
+  * Using an LLM in private to answer questions does not require disclosure.
+* Do not use an LLM to generate issues, PR bodies or comments. You *may* quote LLM output though, as long as it is clearly identified as such and it is not a substitute to your explaination.
+  * You are welocme to to post in languages other than English. Please mention what language is used so that people have an easier time if they need to use machine translation.
+
+Those guidelines are similar in spirit to policies adopted by projects like [Rust][llm_rust] or [GCC][llm_gcc].
 
 > [!WARNING]
 > Submitting generated content in violation of the above guidelines is considered spam. Repeat submission of spam will lead to bans.
@@ -197,6 +203,8 @@ The other [Open-Source documents][docs].
 [oss]: https://cj.rs/open-source
 [oss-interactions]: https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
 [git-request-pull]: https://git-scm.com/docs/git-request-pull
+[llm_rust]: https://forge.rust-lang.org/policies/llm-usage.html
+[llm_gcc]: https://gcc.gnu.org/ai-policy.html?ref=itsfoss.com
 [signoff]: https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--s
 [sp]: https://cj.rs/docs/security/
 [stage]: https://github.blog/2022-06-30-write-better-commits-build-better-projects/#structure-the-narrative
