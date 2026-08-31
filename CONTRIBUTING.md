@@ -47,13 +47,15 @@ As the author of a tool or library, we are blind to many of the problems that us
 ### LLM / GenAI
 
 * Please **disclose** the use of LLMs at least in the PR description and ideally in the commit message as well.
-* Do not use an LLM to submit PRs that you don’t understand. If you must use an LLM, rework the output yourself so that it is your work and you understand it. This also alleviate some of the concerns with copyright of material based on LLM output.
+* You are responsible for the code you submit:
+  * Ensure it is compliant with the license per the [DCO][dco-section].
+  * Do not use an LLM to submit PRs that you don’t understand. If you must use an LLM, rework the output yourself so that it is your work and you understand it. This also helps alleviate some of the concerns with copyright of material based on LLM output.
   * Please keep the PR small to make reviews easier.
-  * Using an LLM in private to answer questions does not require disclosure.
-* Do not use an LLM to generate issues, PR bodies or comments. You *may* quote LLM output though, as long as it is clearly identified as such and it is not a substitute to your explaination.
-  * You are welocme to to post in languages other than English. Please mention what language is used so that people have an easier time if they need to use machine translation.
+  * Using an LLM privately to answer questions or lightly proofread does not require disclosure.
+* Do not use an LLM to generate issues, PR descriptions, or comments. You *may* quote LLM output though, as long as it is clearly identified as such and it is not a substitute for your explanation.
+  * You are welcome to post in languages other than English. Please mention what language is used so that people have an easier time if they need to use machine translation.
 
-Those guidelines are similar in spirit to policies adopted by projects like [Rust][llm_rust] or [GCC][llm_gcc].
+These guidelines are similar in spirit to policies adopted by projects such as [Rust][llm_rust], [Fedora][llm_fedora] and [GCC][llm_gcc].
 
 > [!WARNING]
 > Submitting generated content in violation of the above guidelines is considered spam. Repeat submission of spam will lead to bans.
@@ -205,6 +207,7 @@ The other [Open-Source documents][docs].
 [git-request-pull]: https://git-scm.com/docs/git-request-pull
 [llm_rust]: https://forge.rust-lang.org/policies/llm-usage.html
 [llm_gcc]: https://gcc.gnu.org/ai-policy.html?ref=itsfoss.com
+[llm_fedora]: https://docs.fedoraproject.org/en-US/council/policy/ai-contribution-policy/
 [signoff]: https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--s
 [sp]: https://cj.rs/docs/security/
 [stage]: https://github.blog/2022-06-30-write-better-commits-build-better-projects/#structure-the-narrative
